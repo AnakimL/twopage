@@ -65,7 +65,7 @@
 
         <div class="header__info">
             <div class="container">
-                <div class="row">
+                <div class="row no-gutters">
                     <div class="col-12 col-md-6 col-lg-4 mobile-order-2">
                         <div class="header__left">
 
@@ -165,10 +165,10 @@
 
                     <div class="about__share">
                         <div class="about__share--icon">
-                            <a href="#share" data-fancybox><img src="img/about/share.svg" alt=""></a>
+                            <a href="#share" data-fancybox><svg width="24" height="24" fill="red" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92 0-1.61-1.31-2.92-2.92-2.92z" fill="#0F83EE"/></svg></a>
                         </div>
                         <div class="about__share--bookmark">
-                            <img src="img/about/bookmark.svg" alt="">
+                            <svg width="14" height="21"  xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 20.618l7-3.5 7 3.5V2a2 2 0 00-2-2H2a2 2 0 00-2 2v18.618zm7-5.736l-5 2.5V2h10v15.382l-5-2.5z" fill="#0F83EE"/></svg>
                         </div>
                     </div>
 
@@ -185,8 +185,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/about/about.webp" type="image/webp">
+
         <source srcset="img/about/about.png" type="image/png">
         <img class="lazy" src="img/about/about.png" alt="alt">
+
     </picture>
 
     
@@ -198,9 +200,8 @@
             </div>
             <div class="col-12 col-md-5">
                 <div class="about__text">
-                    <p>Добро пожаловать в отель «Джубга» - уютный гостиный дом на берегу теплого и приветливого Черного моря. Он находится на второй линии, всего в 500 м от уютного и чистого пляжа.
-                    </p>
-                       <p> С расположенной над отелем смотровой площадки вы сможете насладиться великолепными пейзажами бескрайнего моря, величественных гор, скалистых берегов и красивого города. Гостиница располагает широким выбором номеров классов «эконом» и «люкс» на 2, 3 и 4 места, оборудованных всеми необходимыми удобствами (кондиционером, холодильником, спутниковым ТВ). Также к вашим услугам отличный сервис, включающий прачечную, уборку номеров, встречи на вокзале в день прибытия. А организуемые нами экскурсии помогут вам ознакомиться с местными природными и рукотворными достопримечательностями.</p>
+                    <p>Добро пожаловать в отель «Джубга» - уютный гостиный дом на берегу теплого и приветливого Черного моря. Он находится на второй линии, всего в 500 м от уютного и чистого пляжа.</p>
+                       <p>С расположенной над отелем смотровой площадки вы сможете насладиться великолепными пейзажами бескрайнего моря, величественных гор, скалистых берегов и красивого города. Гостиница располагает широким выбором номеров классов «эконом» и «люкс» на 2, 3 и 4 места, оборудованных всеми необходимыми удобствами (кондиционером, холодильником, спутниковым ТВ). Также к вашим услугам отличный сервис, включающий прачечную, уборку номеров, встречи на вокзале в день прибытия. А организуемые нами экскурсии помогут вам ознакомиться с местными природными и рукотворными достопримечательностями.</p>
                 </div>
             </div>
 
@@ -210,26 +211,26 @@
 </section>
     <section class="price" id="priceNum">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
+        <div class="row no-gutters">
+            <div class="col-12 ">
                 <h3>Цены на номера</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="price__info">
-                    <p>Предоставляя услуги проживания в отеле САРГИС, мы стремимся сделать ваш отдых максимально насыщенным, удобным и полным самых приятных впечатлений. В нашем 3-этажном гостином доме можно заказать номера класса "Эконом" или "Люкс". Номера "Эконом" расположены на 1 этаже, рассчитаны на размещение 2, 3 или 4 человек, отличаются невысокой стоимостью и минимальным набором условий, в которые входят кондиционер, место для отдыха, полотенце, зубная паста, мыло, шампунь и щетка. Номера "Люкс" – более дорогие номера и находятся они на 2 и 3 этажах и имеют улучшенные условия, в том числе спутниковое телевидение, холодильник, а также расположенный здесь же санузел и душевую.  <a href="#">Читать далее</a></p>
+                    <p class="p-show">Предоставляя услуги проживания в отеле САРГИС, мы стремимся сделать ваш отдых максимально насыщенным, удобным и полным самых приятных впечатлений. В нашем 3-этажном гостином доме можно заказать номера класса "Эконом" или "Люкс". Номера "Эконом" расположены на 1 этаже, рассчитаны на размещение 2, 3 или 4 человек, отличаются невысокой стоимостью и минимальным набором условий, в которые входят кондиционер, место для отдыха, полотенце, зубная паста, мыло, шампунь и щетка. Номера "Люкс" – более дорогие номера и находятся они на 2 и 3 этажах и имеют улучшенные условия, в том числе спутниковое телевидение, холодильник, а также расположенный здесь же санузел и душевую. </p>
 
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 pl-0 pr-0">
                 <div class="price__tabs">
                 <ul class="nav nav-tabs " id="myTab" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#econom" role="tab" aria-controls="home" aria-selected="true">Эконом <span>750 Р.</span></a>
+                        <a class="nav-link nav-econom  active" id="home-tab" data-toggle="tab" href="#econom" role="tab" aria-controls="home" aria-selected="true">Эконом <span>750 Р.</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#lux" role="tab" aria-controls="profile" aria-selected="false">Люкс <span>900 Р.</span></a>
+                        <a class="nav-link nav-lux" id="profile-tab" data-toggle="tab" href="#lux" role="tab" aria-controls="profile" aria-selected="false">Люкс <span>900 Р.</span></a>
                     </li>
 
                 </ul>
@@ -238,13 +239,14 @@
                         <a href="#priceChange" data-fancybox class="price__shedule">График изменения цен</a>
                         <p>Номера на первом этаже нашей гостиницы. Доступные цены и комфортное размещение.</p>
                         <ul>
-                            <li><span><img src="img/price/house.svg" alt=""></span><span> 1 этаж</span></li>
-                            <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
-                            <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
-                            <li><span><img src="img/price/air.svg" alt=""></span><span> Кондиционер</span></li>
+                            <li><span><img src="img/price/house.svg" alt=""></span><span>1 этаж</span></li>
+                            <li><span><img src="img/price/tv.svg" alt=""></span><span>Телевизор</span></li>
+                            <li><span style="width: 36px;"><img src="img/price/bed.svg" alt=""></span><span>3-4 спальных места</span></li>
+
+                            <li><span><img src="img/price/air.svg" alt=""></span><span>Кондиционер</span></li>
 
                         </ul>
-                        <a href="#" class="price__shedule">Посмотреть планировку номеров</a>
+                        <a href="#popup__planning" data-fancybox class="price__shedule">Посмотреть планировку номеров</a>
                         <div class="price__reserve">
                             <a  href="#reserveForm" data-fancybox data-selectable="true" >Забронировать</a>
                         </div>
@@ -257,17 +259,17 @@
 
                     <div class="tab-pane fade" id="lux" role="tabpanel" aria-labelledby="profile-tab">
                         <a href="#priceChangeLux" data-fancybox class="price__shedule">График изменения цен</a>
-                        <p>Номера на втором и третьем этажах нашего дома. Номера оборудованы всем необходимым: туалетом и дуем, телевизором, холодильником..</p>
+                        <p>Номера на первом этаже нашей гостиницы. Доступные цены и комфортное размещение.</p>
                         <ul>
                             <li><span><img src="img/price/house.svg" alt=""></span><span> 1 этаж</span></li>
                             <li><span><img src="img/price/fridge.svg" alt=""></span><span> Холодильник</span></li>
-                            <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
-                            <li><span><img src="img/price/shower.svg" alt=""></span><span> Душ и туалет в номере</span></li>
+                            <li><span style="width: 36px;"><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
+                            <li><span style="width: 42px;"><img src="img/price/shower.svg" alt=""></span><span> Душ и туалет в номере</span></li>
                             <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
                             <li><span><img src="img/price/air.svg" alt=""></span><span> Кондиционер</span></li>
 
                         </ul>
-                        <a href="#" class="price__shedule">Посмотреть планировку номеров</a>
+                        <a href="#popup__planning" data-fancybox class="price__shedule">Посмотреть планировку номеров</a>
                         <div class="price__reserve">
                             <a href="#reserveForm" data-fancybox>Забронировать</a>
                         </div>
@@ -282,11 +284,11 @@
 </section>
     <div id="callback" style="display: none">
     <form action="#">
-        <div class="form__heading">Заказ обратного звонка</div>
+        <div class="form__heading">Заказа обратного <br> звонка</div>
 
         <div class="form__name">
             <label for="name">Имя</label>
-            <input type="text" id="name" placeholder="Имя" required>
+            <input type="text" id="name" placeholder="Имя Фамилия" required>
         </div>
 
         <div class="form__tel">
@@ -316,7 +318,7 @@
             <p><span>01.07.2019 — 14.07.2019</span><span>Взрослые 2</span><span>Дети 1</span></p>
         </div>
 
-        <div class="filter-cards__wrapper">
+        <div class="filter-cards__wrapper filter-cards__wrapper-top">
 
             <a class="filter-card__link filter-card__header-link" href="#reserveForm" data-fancybox="freenumbers">
                 <div class="filter-card">
@@ -518,8 +520,6 @@
         </div>
     </div>
 </div>
-
-
 <div id="priceChange" class="price__change" style="display: none">
     <h4>График изменения цен</h4>
     <div class="price__change-type">Эконом</div>
@@ -527,19 +527,19 @@
         <tbody>
         <tr>
             <td>май - сентябрь</td>
-            <td>800 - 1600 Р.</td>
+            <td>800 - 1600  Р.</td>
         </tr>
         <tr>
             <td>октябрь - ноябрь</td>
-            <td>800 - 1600 Р.</td>
+            <td>800 - 1600  Р.</td>
         </tr>
         <tr>
             <td>декабрь - январь</td>
-            <td>800 - 1600 Р.</td>
+            <td>800 - 1600  Р.</td>
         </tr>
         <tr>
             <td>февраль - апрель</td>
-            <td>800 - 1600 Р.</td>
+            <td>800 - 1600  Р.</td>
         </tr>
         </tbody>
     </table>
@@ -571,8 +571,6 @@
     </table>
 
 </div>
-
-
 <div id="reserveForm" class="reserve" style="display: none">
     <div class="container">
         <div class="row">
@@ -684,7 +682,7 @@
 
             <div class="col-12 col-sm-12 col-md-12 col-lg-8">
                 <div class="reserve__form-right">
-                    <div class="form-data__line">
+                    <div class="form-data__line form-gutters__name">
                         <div class="form-data__name">
                             <label for="name">Имя</label>
                             <input required type="text" id="name" placeholder="Имя">
@@ -697,7 +695,7 @@
 
                     </div>
 
-                    <div class="form-data__line">
+                    <div class="form-data__line form-gutters__tel">
 
                         <div class="form-data__tel">
                             <label for="tel">Телефон</label>
@@ -756,7 +754,7 @@
 
                     </fieldset>
 
-                    <div class="form-group">
+                    <div class="form-group form-add__info">
                         <label for="dopInfo">Дополнительная информация</label>
                         <textarea class="form-control" id="dopInfo" rows="3"></textarea>
                     </div>
@@ -781,7 +779,6 @@
     </div>
     </form>
 </div>
-
 <div id="share" style="display: none;">
         <div class="container">
             <div class="row">
@@ -806,8 +803,6 @@
         </div>
     </div>
 </div>
-
-
 <div id="foods" class="foods" style="display: none;">
     <div class="container">
         <div class="row">
@@ -947,7 +942,6 @@
         </div>
     </div>
 </div>
-
 
 <div id="manageForm" class="room" style="display: none;">
     <form action="">
@@ -1091,8 +1085,10 @@
     
     <picture class="pictureclass">
         <source srcset="mg/slider-room/slide1.webp" type="image/webp">
+
         <source srcset="mg/slider-room/slide1.png" type="image/png">
         <img class="lazy" src="mg/slider-room/slide1.png" alt="alt">
+
     </picture>
 
     
@@ -1109,8 +1105,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/slider-room/slide2.webp" type="image/webp">
+
         <source srcset="img/slider-room/slide2.png" type="image/png">
         <img class="lazy" src="img/slider-room/slide2.png" alt="alt">
+
     </picture>
 
     
@@ -1127,8 +1125,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/slider-room/slide3.webp" type="image/webp">
+
         <source srcset="img/slider-room/slide3.png" type="image/png">
         <img class="lazy" src="img/slider-room/slide3.png" alt="alt">
+
     </picture>
 
     
@@ -1145,8 +1145,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/slider-room/slide1.webp" type="image/webp">
+
         <source srcset="img/slider-room/slide1.png" type="image/png">
         <img class="lazy" src="img/slider-room/slide1.png" alt="alt">
+
     </picture>
 
     
@@ -1182,6 +1184,20 @@
     </div>
     </form>
 </div>
+<div id="popup__text" style="max-width: 700px; display: none;padding: 20px;">
+    <div class="popup-text__wrapper">
+        <p>Добро пожаловать в отель «Джубга» - уютный гостиный дом на берегу теплого и приветливого Черного моря. Он находится на второй линии, всего в 500 м от уютного и чистого пляжа.</p>
+        <p>С расположенной над отелем смотровой площадки вы сможете насладиться великолепными пейзажами бескрайнего моря, величественных гор, скалистых берегов и красивого города. Гостиница располагает широким выбором номеров классов «эконом» и «люкс» на 2, 3 и 4 места, оборудованных всеми необходимыми удобствами (кондиционером, холодильником, спутниковым ТВ). Также к вашим услугам отличный сервис, включающий прачечную, уборку номеров, встречи на вокзале в день прибытия. А организуемые нами экскурсии помогут вам ознакомиться с местными природными и рукотворными достопримечательностями.</p>
+
+    </div>
+</div>
+
+<div id="popup__planning" style="max-width: 700px; display: none;padding: 20px;">
+    <div class="popup__planning--wrapper">
+        <p><img class="lazy" src="img/price/s1200.jpg" alt=""></p>
+
+    </div>
+</div>
     <section class="slider-room">
         <div class="row">
             <div class="col-12">
@@ -1215,14 +1231,15 @@
 </section>
     <section class="filter">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
+        <div class="row no-pad">
+            <div class="col-12 no-pad">
                 <div class="filter__title">Выбор номера</div>
             </div>
             
-            <div class="col-12">
+            <div class="col-12 no-pad">
                 <div class="filter-mobile lap-hide">
-                    <a href="#filterNum" data-fancybox>Фильтры и сортировка</a>
+                    <a href="#filterNum" data-fancybox> <span>Фильтры и сортировка</span>  <img src="img/filter/fil.svg" alt=""></a>
+
                 </div>
                 <div class="filter-option__wrapper">
                     <div class="filter-option">
@@ -1258,11 +1275,12 @@
 
 
         </div>
+
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 no-pad">
                 <div class="filter-cards__wrapper">
 
-                    <a class="filter-card__link" data-fancybox="numbers" href="#reserveNum1">
+                    <a class="filter-card__link" data-fancybox="numbers" href="#reserveNum2">
                         <div class="filter-card">
                             <div class="filter__image"><img class="lazy" src="img/filter/nomero.jpg" alt=""></div>
                             <div class="filter__name">
@@ -1289,7 +1307,7 @@
                         </div>
 
                     </a>
-                    <a class="filter-card__link" data-fancybox="numbers" href="#reserveNum2">
+                    <a class="filter-card__link" data-fancybox="numbers" href="#reserveNum3">
                         <div class="filter-card">
                             <div class="filter__image"><img class="lazy" src="img/filter/nomero2.jpg" alt=""></div>
                             <div class="filter__name">
@@ -1409,7 +1427,88 @@
                                 <div class="filter__info--icon"><span><img class="lazy" src="img/filter/bed.svg" alt=""></span></div>
                                 <div class="filter__info--icon"><span><img class="lazy" src="img/filter/tv.svg" alt=""></span></div>
                                 <div class="filter__info--icon"><span><img class="lazy" src="img/filter/fridge.svg" alt=""></span></div>
-                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/shower.svg" alt=""></span></div>
+                                <div class="filter_+_info--icon"><span><img class="lazy" src="img/filter/shower.svg" alt=""></span></div>
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/air.svg" alt=""></span></div>
+                            </div>
+                            <div class="filter__text">
+                                <p>Номера на втором и третьем этажах нашего дома. Номера оборудованы всем необходимым: туалетом и дуем, телевизором, холодильником.</p>
+                            </div>
+
+                            <div class="filter__reserve">
+                                <div class="filter-right" >
+                                    <span>Забронировать</span> <span><img class="lazy" src="img/filter/cup.svg" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                    <a class="filter-card__link" >
+                        <div class="filter-card">
+                            <div class="filter__image"><img class="lazy" src="img/filter/nomero.jpg" alt=""></div>
+                            <div class="filter__name">
+                                <div class="filter__class">Люкс #201</div>
+                                <div class="filter__price"><span>900 P.</span></div>
+                            </div>
+                            <div class="filter__info">
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/house.svg" alt=""></span></div>
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/bed.svg" alt=""></span></div>
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/tv.svg" alt=""></span></div>
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/fridge.svg" alt=""></span></div>
+                                <div class="filter_+_info--icon"><span><img class="lazy" src="img/filter/shower.svg" alt=""></span></div>
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/air.svg" alt=""></span></div>
+                            </div>
+                            <div class="filter__text">
+                                <p>Номера на втором и третьем этажах нашего дома. Номера оборудованы всем необходимым: туалетом и дуем, телевизором, холодильником.</p>
+                            </div>
+
+                            <div class="filter__reserve">
+                                <div class="filter-right" >
+                                    <span>Забронировать</span> <span><img class="lazy" src="img/filter/cup.svg" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                    <a class="filter-card__link" >
+                        <div class="filter-card">
+                            <div class="filter__image"><img class="lazy" src="img/filter/nomero.jpg" alt=""></div>
+                            <div class="filter__name">
+                                <div class="filter__class">Люкс #201</div>
+                                <div class="filter__price"><span>900 P.</span></div>
+                            </div>
+                            <div class="filter__info">
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/house.svg" alt=""></span></div>
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/bed.svg" alt=""></span></div>
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/tv.svg" alt=""></span></div>
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/fridge.svg" alt=""></span></div>
+                                <div class="filter_+_info--icon"><span><img class="lazy" src="img/filter/shower.svg" alt=""></span></div>
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/air.svg" alt=""></span></div>
+                            </div>
+                            <div class="filter__text">
+                                <p>Номера на втором и третьем этажах нашего дома. Номера оборудованы всем необходимым: туалетом и дуем, телевизором, холодильником.</p>
+                            </div>
+
+                            <div class="filter__reserve">
+                                <div class="filter-right" >
+                                    <span>Забронировать</span> <span><img class="lazy" src="img/filter/cup.svg" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                    <a class="filter-card__link" >
+                        <div class="filter-card">
+                            <div class="filter__image"><img class="lazy" src="img/filter/nomero.jpg" alt=""></div>
+                            <div class="filter__name">
+                                <div class="filter__class">Люкс #201</div>
+                                <div class="filter__price"><span>900 P.</span></div>
+                            </div>
+                            <div class="filter__info">
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/house.svg" alt=""></span></div>
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/bed.svg" alt=""></span></div>
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/tv.svg" alt=""></span></div>
+                                <div class="filter__info--icon"><span><img class="lazy" src="img/filter/fridge.svg" alt=""></span></div>
+                                <div class="filter_+_info--icon"><span><img class="lazy" src="img/filter/shower.svg" alt=""></span></div>
                                 <div class="filter__info--icon"><span><img class="lazy" src="img/filter/air.svg" alt=""></span></div>
                             </div>
                             <div class="filter__text">
@@ -1427,9 +1526,9 @@
                     <div id="filterMore" class="filter-card__more"><a href="#">Еще</a></div>
                 </div>
             </div>
-
-
         </div>
+
+
     </div>
 </section>
     
@@ -1504,7 +1603,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="suite__title">Люкс #201 <span>900 Р.</span></div>
+                <div class="suite__title">
+                    <button data-fancybox-prev="" class=" suite-prev fancybox-button--arrow_left" title="Previous"><span><img src="../img/suite/left.png"> предыдущий</span></button>
+                    <p>Люкс #201 <span>900 Р.</span></p>
+                    <button data-fancybox-next="" class=" suite-next fancybox-button--arrow_right compensate-for-scrollbar" title="Next" ><span>слудующий<img src="../img/suite/right.png"></span></button>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -1553,7 +1656,7 @@
                                 <tr><td><b>‹</b></td><td colspan="5" data-month="7" data-year="2019">Август 2019</td><td><b>›</b>
                                     </td></tr><tr><td>Пн</td><td>Вт</td><td>Ср</td><td>Чт</td><td>Пт</td><td>Сб</td><td>Вс
                                     </td></tr></thead>
-                                <tbody><tr><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td class="reserve">7</td><td class="reserve">8</td><td class="reserve">9</td><td class="reserve">10</td><td class="reserve">11</td></tr><tr><td class="reserve">12</td><td class="reserve">13</td><td class="reserve">14</td><td class="reserve">15</td><td>16</td><td>17</td><td>18</td></tr><tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr><tr><td>26</td><td class="today">27</td><td>28</td><td>29</td><td>30</td><td>31</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody>
+                                <tbody><tr><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td class="reserve">7</td><td class="reserve">8</td><td class="reserve">9</td><td class="reserve">10</td><td class="reserve">11</td></tr><tr><td class="reserve">12</td><td class="reserve">13</td><td class="reserve">14</td><td class="reserve">15</td><td>16</td><td>17</td><td>18</td></tr><tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr><tr><td>26</td><td class="today">27</td><td>28</td><td>29</td><td>30</td><td>31</td><td>&nbsp;</td></tr></tbody>
                             </table>
                         </div>
                     </div>
@@ -1585,133 +1688,343 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="suite__title">Люкс #201 <span>900 Р.</span></div>
+                <div class="suite__title">
+                    <button data-fancybox-prev="" class=" suite-prev fancybox-button--arrow_left" title="Previous"><span><img src="../img/suite/left.png"> предыдущий</span></button>
+                    <p>Люкс #201 <span>900 Р.</span></p>
+                    <button data-fancybox-next="" class=" suite-next fancybox-button--arrow_right compensate-for-scrollbar" title="Next" disabled=""><span>слудующий<img src="../img/suite/right.png"></span></button>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-7">
                 <div class="suite__slider-wrapper">
-                    <div class="suite__slider-for">
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                    </div>
-                    <div class="suite__slider-nav">
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                    </div>
+                    <div class="suite__slider-for"  data-slick="{
+                    "slidesToShow": 1,
+                    "slidesToScroll": 1,
+                    "arrows": false,
+                    "fade": true,
+                    "asNavFor": '.suite__slider-nav'
+                    }">
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
                 </div>
-                <div class="suite__text">
-                    <p>Тут небольшое описание номера. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
+                <div class="suite__slider-nav" data-slick="{
+         "slidesToShow": 3,
+                "slidesToScroll": 1,
+                "asNavFor": '.suite__slider-for',
+                "dots": true,
+                "centerMode": true,
+                "focusOnSelect": true,
+                "arrows": true
 
-            </div>
-            <div class="col-12 col-md-5">
-                <div class="suite__info">
-                    <div class="suite__header">Доступность</div>
-                    <div align=center>
-                        <div >
-                            <table id="calendar" border="0" cellspacing="0" cellpadding="1">
-                                <thead>
-                                <tr><td><b>‹</b></td><td colspan="5" data-month="7" data-year="2019">Август 2019</td><td><b>›</b>
-                                    </td></tr><tr><td>Пн</td><td>Вт</td><td>Ср</td><td>Чт</td><td>Пт</td><td>Сб</td><td>Вс
-                                    </td></tr></thead>
-                                <tbody><tr><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td class="reserve">7</td><td class="reserve">8</td><td class="reserve">9</td><td class="reserve">10</td><td class="reserve">11</td></tr><tr><td class="reserve">12</td><td class="reserve">13</td><td class="reserve">14</td><td class="reserve">15</td><td>16</td><td>17</td><td>18</td></tr><tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr><tr><td>26</td><td class="today">27</td><td>28</td><td>29</td><td>30</td><td>31</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <div class="suite__icons">
-                        <ul>
-                            <li><span><img src="img/price/house.svg" alt=""></span><span> 1 этаж</span></li>
-                            <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
-                            <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
-                            <li><span><img src="img/price/air.svg" alt=""></span><span> Кондиционер</span></li>
-                            <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
-                            <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
-
-                        </ul>
-                    </div>
-                    <div class="suite__link"><a href="#">Посмотреть планировку номера</a></div>
-                    <div class="suite__reserve">
-                        <a href="#reserveForm2" data-fancybox>Забронировать</a>
-                    </div>
-
-
-                </div>
+                }">
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
             </div>
         </div>
+        <div class="suite__text">
+            <p>Тут небольшое описание номера. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+
     </div>
+    <div class="col-12 col-md-5">
+        <div class="suite__info">
+            <div class="suite__header">Доступность</div>
+            <div align=center>
+                <div >
+                    <table id="calendar" border="0" cellspacing="0" cellpadding="1">
+                        <thead>
+                        <tr><td><b>‹</b></td><td colspan="5" data-month="7" data-year="2019">Август 2019</td><td><b>›</b>
+                            </td></tr><tr><td>Пн</td><td>Вт</td><td>Ср</td><td>Чт</td><td>Пт</td><td>Сб</td><td>Вс
+                            </td></tr></thead>
+                        <tbody><tr><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td class="reserve">7</td><td class="reserve">8</td><td class="reserve">9</td><td class="reserve">10</td><td class="reserve">11</td></tr><tr><td class="reserve">12</td><td class="reserve">13</td><td class="reserve">14</td><td class="reserve">15</td><td>16</td><td>17</td><td>18</td></tr><tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr><tr><td>26</td><td class="today">27</td><td>28</td><td>29</td><td>30</td><td>31</td><td>&nbsp;</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="suite__icons">
+                <ul>
+                    <li><span><img src="img/price/house.svg" alt=""></span><span> 1 этаж</span></li>
+                    <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
+                    <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
+                    <li><span><img src="img/price/air.svg" alt=""></span><span> Кондиционер</span></li>
+                    <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
+                    <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
+
+                </ul>
+            </div>
+            <div class="suite__link"><a href="#">Посмотреть планировку номера</a></div>
+            <div class="suite__reserve">
+                <a href="#reserveForm2" data-fancybox>Забронировать</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</div>
 </div>
 
 <div class="suite" id="reserveNum4" style="display: none;">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="suite__title">Люкс #201 <span>900 Р.</span></div>
+                <div class="suite__title">
+                    <button data-fancybox-prev="" class=" suite-prev fancybox-button--arrow_left" title="Previous"><span><img src="../img/suite/left.png"> предыдущий</span></button>
+                    <p>Люкс #201 <span>900 Р.</span></p>
+                    <button data-fancybox-next="" class=" suite-next fancybox-button--arrow_right compensate-for-scrollbar" title="Next" disabled=""><span>слудующий<img src="../img/suite/right.png"></span></button>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-7">
                 <div class="suite__slider-wrapper">
-                    <div class="suite__slider-for">
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                    </div>
-                    <div class="suite__slider-nav">
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                        <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
-                    </div>
+                    <div class="suite__slider-for"  data-slick="{
+                    "slidesToShow": 1,
+                    "slidesToScroll": 1,
+                    "arrows": false,
+                    "fade": true,
+                    "asNavFor": '.suite__slider-nav'
+                    }">
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
                 </div>
-                <div class="suite__text">
-                    <p>Тут небольшое описание номера. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
+                <div class="suite__slider-nav" data-slick="{
+         "slidesToShow": 3,
+                "slidesToScroll": 1,
+                "asNavFor": '.suite__slider-for',
+                "dots": true,
+                "centerMode": true,
+                "focusOnSelect": true,
+                "arrows": true
 
+                }">
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
             </div>
-            <div class="col-12 col-md-5">
-                <div class="suite__info">
-                    <div class="suite__header">Доступность</div>
-                    <div align=center>
-                        <div >
-                            <table id="calendar" border="0" cellspacing="0" cellpadding="1">
-                                <thead>
-                                <tr><td><b>‹</b></td><td colspan="5" data-month="7" data-year="2019">Август 2019</td><td><b>›</b>
-                                    </td></tr><tr><td>Пн</td><td>Вт</td><td>Ср</td><td>Чт</td><td>Пт</td><td>Сб</td><td>Вс
-                                    </td></tr></thead>
-                                <tbody><tr><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td class="reserve">7</td><td class="reserve">8</td><td class="reserve">9</td><td class="reserve">10</td><td class="reserve">11</td></tr><tr><td class="reserve">12</td><td class="reserve">13</td><td class="reserve">14</td><td class="reserve">15</td><td>16</td><td>17</td><td>18</td></tr><tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr><tr><td>26</td><td class="today">27</td><td>28</td><td>29</td><td>30</td><td>31</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody>
-                            </table>
-                        </div>
-                    </div>
+        </div>
+        <div class="suite__text">
+            <p>Тут небольшое описание номера. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
 
-                    <div class="suite__icons">
-                        <ul>
-                            <li><span><img src="img/price/house.svg" alt=""></span><span> 1 этаж</span></li>
-                            <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
-                            <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
-                            <li><span><img src="img/price/air.svg" alt=""></span><span> Кондиционер</span></li>
-                            <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
-                            <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
-
-                        </ul>
-                    </div>
-                    <div class="suite__link"><a href="#">Посмотреть планировку номера</a></div>
-                    <div class="suite__reserve">
-                        <a href="#reserveForm2" data-fancybox>Забронировать</a>
-                    </div>
-
-
+    </div>
+    <div class="col-12 col-md-5">
+        <div class="suite__info">
+            <div class="suite__header">Доступность</div>
+            <div align=center>
+                <div >
+                    <table id="calendar" border="0" cellspacing="0" cellpadding="1">
+                        <thead>
+                        <tr><td><b>‹</b></td><td colspan="5" data-month="7" data-year="2019">Август 2019</td><td><b>›</b>
+                            </td></tr><tr><td>Пн</td><td>Вт</td><td>Ср</td><td>Чт</td><td>Пт</td><td>Сб</td><td>Вс
+                            </td></tr></thead>
+                        <tbody><tr><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td class="reserve">7</td><td class="reserve">8</td><td class="reserve">9</td><td class="reserve">10</td><td class="reserve">11</td></tr><tr><td class="reserve">12</td><td class="reserve">13</td><td class="reserve">14</td><td class="reserve">15</td><td>16</td><td>17</td><td>18</td></tr><tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr><tr><td>26</td><td class="today">27</td><td>28</td><td>29</td><td>30</td><td>31</td><td>&nbsp;</td></tr></tbody>
+                    </table>
                 </div>
             </div>
+
+            <div class="suite__icons">
+                <ul>
+                    <li><span><img src="img/price/house.svg" alt=""></span><span> 1 этаж</span></li>
+                    <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
+                    <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
+                    <li><span><img src="img/price/air.svg" alt=""></span><span> Кондиционер</span></li>
+                    <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
+                    <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
+
+                </ul>
+            </div>
+            <div class="suite__link"><a href="#">Посмотреть планировку номера</a></div>
+            <div class="suite__reserve">
+                <a href="#reserveForm2" data-fancybox>Забронировать</a>
+            </div>
+
+
         </div>
     </div>
 </div>
+</div>
+</div>
+
+<div class="suite" id="reserveNum5" style="display: none;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="suite__title">
+                    <button data-fancybox-prev="" class=" suite-prev fancybox-button--arrow_left" title="Previous"><span><img src="../img/suite/left.png"> предыдущий</span></button>
+                    <p>Люкс #201 <span>900 Р.</span></p>
+                    <button data-fancybox-next="" class=" suite-next fancybox-button--arrow_right compensate-for-scrollbar" title="Next" disabled=""><span>слудующий<img src="../img/suite/right.png"></span></button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-7">
+                <div class="suite__slider-wrapper">
+                    <div class="suite__slider-for"  data-slick="{
+                    "slidesToShow": 1,
+                    "slidesToScroll": 1,
+                    "arrows": false,
+                    "fade": true,
+                    "asNavFor": '.suite__slider-nav'
+                    }">
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                </div>
+                <div class="suite__slider-nav" data-slick="{
+         "slidesToShow": 3,
+                "slidesToScroll": 1,
+                "asNavFor": '.suite__slider-for',
+                "dots": true,
+                "centerMode": true,
+                "focusOnSelect": true,
+                "arrows": true
+
+                }">
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="suite__text">
+            <p>Тут небольшое описание номера. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+
+    </div>
+    <div class="col-12 col-md-5">
+        <div class="suite__info">
+            <div class="suite__header">Доступность</div>
+            <div align=center>
+                <div >
+                    <table id="calendar" border="0" cellspacing="0" cellpadding="1">
+                        <thead>
+                        <tr><td><b>‹</b></td><td colspan="5" data-month="7" data-year="2019">Август 2019</td><td><b>›</b>
+                            </td></tr><tr><td>Пн</td><td>Вт</td><td>Ср</td><td>Чт</td><td>Пт</td><td>Сб</td><td>Вс
+                            </td></tr></thead>
+                        <tbody><tr><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td class="reserve">7</td><td class="reserve">8</td><td class="reserve">9</td><td class="reserve">10</td><td class="reserve">11</td></tr><tr><td class="reserve">12</td><td class="reserve">13</td><td class="reserve">14</td><td class="reserve">15</td><td>16</td><td>17</td><td>18</td></tr><tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr><tr><td>26</td><td class="today">27</td><td>28</td><td>29</td><td>30</td><td>31</td><td>&nbsp;</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="suite__icons">
+                <ul>
+                    <li><span><img src="img/price/house.svg" alt=""></span><span> 1 этаж</span></li>
+                    <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
+                    <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
+                    <li><span><img src="img/price/air.svg" alt=""></span><span> Кондиционер</span></li>
+                    <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
+                    <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
+
+                </ul>
+            </div>
+            <div class="suite__link"><a href="#">Посмотреть планировку номера</a></div>
+            <div class="suite__reserve">
+                <a href="#reserveForm2" data-fancybox>Забронировать</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="suite" id="reserveNum6" style="display: none;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="suite__title">
+                    <button data-fancybox-prev="" class=" suite-prev fancybox-button--arrow_left" title="Previous"><span><img src="../img/suite/left.png"> предыдущий</span></button>
+                    <p>Люкс #201 <span>900 Р.</span></p>
+                    <button data-fancybox-next="" class=" suite-next fancybox-button--arrow_right compensate-for-scrollbar" title="Next" disabled=""><span>слудующий<img src="../img/suite/right.png"></span></button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-7">
+                <div class="suite__slider-wrapper">
+                    <div class="suite__slider-for"  data-slick="{
+                    "slidesToShow": 1,
+                    "slidesToScroll": 1,
+                    "arrows": false,
+                    "fade": true,
+                    "asNavFor": '.suite__slider-nav'
+                    }">
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                    <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                </div>
+                <div class="suite__slider-nav" data-slick="{
+         "slidesToShow": 3,
+                "slidesToScroll": 1,
+                "asNavFor": '.suite__slider-for',
+                "dots": true,
+                "centerMode": true,
+                "focusOnSelect": true,
+                "arrows": true
+
+                }">
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+                <div class="suite__item"><img src="img/suite/room.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="suite__text">
+            <p>Тут небольшое описание номера. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+
+    </div>
+    <div class="col-12 col-md-5">
+        <div class="suite__info">
+            <div class="suite__header">Доступность</div>
+            <div align=center>
+                <div >
+                    <table id="calendar" border="0" cellspacing="0" cellpadding="1">
+                        <thead>
+                        <tr><td><b>‹</b></td><td colspan="5" data-month="7" data-year="2019">Август 2019</td><td><b>›</b>
+                            </td></tr><tr><td>Пн</td><td>Вт</td><td>Ср</td><td>Чт</td><td>Пт</td><td>Сб</td><td>Вс
+                            </td></tr></thead>
+                        <tbody><tr><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td class="reserve">7</td><td class="reserve">8</td><td class="reserve">9</td><td class="reserve">10</td><td class="reserve">11</td></tr><tr><td class="reserve">12</td><td class="reserve">13</td><td class="reserve">14</td><td class="reserve">15</td><td>16</td><td>17</td><td>18</td></tr><tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr><tr><td>26</td><td class="today">27</td><td>28</td><td>29</td><td>30</td><td>31</td><td>&nbsp;</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="suite__icons">
+                <ul>
+                    <li><span><img src="img/price/house.svg" alt=""></span><span> 1 этаж</span></li>
+                    <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
+                    <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
+                    <li><span><img src="img/price/air.svg" alt=""></span><span> Кондиционер</span></li>
+                    <li><span><img src="img/price/bed.svg" alt=""></span><span> 3-4 спальных места</span></li>
+                    <li><span><img src="img/price/tv.svg" alt=""></span><span> Телевизор</span></li>
+
+                </ul>
+            </div>
+            <div class="suite__link"><a href="#">Посмотреть планировку номера</a></div>
+            <div class="suite__reserve">
+                <a href="#reserveForm2" data-fancybox>Забронировать</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
     <section class="bar" id="priceBar">
     <div class="container">
         <div class="row">
@@ -1721,27 +2034,33 @@
 
         </div>
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-7">
                 <div class="bar__img">
+
                     
     
     
     <picture class="pictureclass">
         <source srcset="img/bar/bar.webp" type="image/webp">
+
         <source srcset="img/bar/bar.png" type="image/png">
         <img class="lazy" src="img/bar/bar.png" alt="alt">
+
     </picture>
 
     
 
 
 
+
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-5">
                 <div class="bar__text">
-                    <p>
-                        Во время отдыха на Черном море после насыщенного делами дня иногда так хочется расслабиться одному или в приятной компании, ведь пляжи, наши увлекательные экскурсии по местным достопримечательностям и огромный спектр доступных развлечений иногда могут отнять все силы. Поэтому в гостевом доме «Джубга» предусмотрен небольшой, но очень уютный вечерний бар. Здесь имеется богатый ассортимент спиртных и безалкогольных напитков высочайшего качества. Кофе, чай, вина и пиво различных сортов, разнообразные коктейли, а также крепкий алкоголь – в этом месте вы сможете найти все, чтобы снять накопившееся напряжение и усталость. Тщательно проработанный, но ненавязчивый интерьер, а также идеально подобранное музыкальное сопровождение позволят вам сосредоточиться на беседе или собственных мыслях.
+                    <p class="p-show">
+                        Во время отдыха на Черном море после насыщенного делами дня иногда так хочется расслабиться одному или в приятной компании, ведь пляжи, наши увлекательные экскурсии по местным достопримечательностям и огромный спектр доступных развлечений иногда могут отнять все силы. Поэтому в гостевом доме «Джубга» предусмотрен небольшой, но очень уютный вечерний бар.
+                        </p>
+                        <p class="p-hide">Здесь имеется богатый ассортимент спиртных и безалкогольных напитков высочайшего качества. Кофе, чай, вина и пиво различных сортов, разнообразные коктейли, а также крепкий алкоголь – в этом месте вы сможете найти все, чтобы снять накопившееся напряжение и усталость. Тщательно проработанный, но ненавязчивый интерьер, а также идеально подобранное музыкальное сопровождение позволят вам сосредоточиться на беседе или собственных мыслях.
                         <span><a href="#">Читать далее</a></span> </p>
                 </div>
             </div>
@@ -1752,6 +2071,21 @@
         <div class="bar-slider slick-carousel">
             <div class="bar-item">
 
+                
+    
+    
+    <picture class="pictureclass">
+        <source srcset="img/bar/mojito.webp" type="image/webp">
+
+        <source srcset="img/bar/mojito.png" type="image/png">
+        <img class="lazy" src="img/bar/mojito.png" alt="alt">
+
+    </picture>
+
+    
+
+
+
 
                 <div class="bar-item__info">
                     <span>Рыба</span>
@@ -1759,16 +2093,20 @@
                 </div>
             </div>
             <div class="bar-item">
+
                 
     
     
     <picture class="pictureclass">
         <source srcset="img/bar/mojito.webp" type="image/webp">
+
         <source srcset="img/bar/mojito.png" type="image/png">
         <img class="lazy" src="img/bar/mojito.png" alt="alt">
+
     </picture>
 
     
+
 
 
 
@@ -1777,16 +2115,21 @@
                     <span>60 Р.</span>
                 </div></div>
             <div class="bar-item">
+
                 
     
     
     <picture class="pictureclass">
         <source srcset="img/bar/burger.webp" type="image/webp">
+
         <source srcset="img/bar/burger.png" type="image/png">
         <img class="lazy" src="img/bar/burger.png" alt="alt">
+
     </picture>
 
     
+
+
 
 
 
@@ -1795,13 +2138,16 @@
                     <span>60 Р.</span>
                 </div></div>
             <div class="bar-item">
+
                 
     
     
     <picture class="pictureclass">
-        <source srcset="iimg/bar/bak.webp" type="image/webp">
-        <source srcset="iimg/bar/bak.png" type="image/png">
-        <img class="lazy" src="iimg/bar/bak.png" alt="alt">
+        <source srcset="img/bar/zar.webp" type="image/webp">
+
+        <source srcset="img/bar/zar.png" type="image/png">
+        <img class="lazy" src="img/bar/zar.png" alt="alt">
+
     </picture>
 
     
@@ -1813,16 +2159,20 @@
                     <span>60 Р.</span>
                 </div></div>
             <div class="bar-item">
+
                 
     
     
     <picture class="pictureclass">
         <source srcset="img/bar/zar.webp" type="image/webp">
+
         <source srcset="img/bar/zar.png" type="image/png">
         <img class="lazy" src="img/bar/zar.png" alt="alt">
+
     </picture>
 
     
+
 
 
 
@@ -1836,11 +2186,14 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/salad.webp" type="image/webp">
+
         <source srcset="img/bar/salad.png" type="image/png">
         <img class="lazy" src="img/bar/salad.png" alt="alt">
+
     </picture>
 
     
+
 
 
 
@@ -1873,8 +2226,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/fish.webp" type="image/webp">
+
         <source srcset="img/bar/fish.png" type="image/png">
         <img class="lazy" src="img/bar/fish.png" alt="alt">
+
     </picture>
 
     
@@ -1891,8 +2246,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/burger.webp" type="image/webp">
+
         <source srcset="img/bar/burger.png" type="image/png">
         <img class="lazy" src="img/bar/burger.png" alt="alt">
+
     </picture>
 
     
@@ -1909,8 +2266,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/zar.webp" type="image/webp">
+
         <source srcset="img/bar/zar.png" type="image/png">
         <img class="lazy" src="img/bar/zar.png" alt="alt">
+
     </picture>
 
     
@@ -1927,8 +2286,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/bak.webp" type="image/webp">
+
         <source srcset="img/bar/bak.png" type="image/png">
         <img class="lazy" src="img/bar/bak.png" alt="alt">
+
     </picture>
 
     
@@ -1955,8 +2316,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/vodka.webp" type="image/webp">
+
         <source srcset="img/bar/vodka.png" type="image/png">
         <img class="lazy" src="img/bar/vodka.png" alt="alt">
+
     </picture>
 
     
@@ -1973,8 +2336,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/orang.webp" type="image/webp">
+
         <source srcset="img/bar/orang.png" type="image/png">
         <img class="lazy" src="img/bar/orang.png" alt="alt">
+
     </picture>
 
     
@@ -1991,8 +2356,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/bok.webp" type="image/webp">
+
         <source srcset="img/bar/bok.png" type="image/png">
         <img class="lazy" src="img/bar/bok.png" alt="alt">
+
     </picture>
 
     
@@ -2009,8 +2376,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/beer.webp" type="image/webp">
+
         <source srcset="img/bar/beer.png" type="image/png">
         <img class="lazy" src="img/bar/beer.png" alt="alt">
+
     </picture>
 
     
@@ -2027,8 +2396,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/rom.webp" type="image/webp">
+
         <source srcset="img/bar/rom.png" type="image/png">
         <img class="lazy" src="img/bar/rom.png" alt="alt">
+
     </picture>
 
     
@@ -2045,8 +2416,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/martini.webp" type="image/webp">
+
         <source srcset="img/bar/martini.png" type="image/png">
         <img class="lazy" src="img/bar/martini.png" alt="alt">
+
     </picture>
 
     
@@ -2063,8 +2436,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/shamp.webp" type="image/webp">
+
         <source srcset="img/bar/shamp.png" type="image/png">
         <img class="lazy" src="img/bar/shamp.png" alt="alt">
+
     </picture>
 
     
@@ -2080,8 +2455,10 @@
     
     <picture class="pictureclass">
         <source srcset="img/bar/oreo.webp" type="image/webp">
+
         <source srcset="img/bar/oreo.png" type="image/png">
         <img class="lazy" src="img/bar/oreo.png" alt="alt">
+
     </picture>
 
     
@@ -2107,10 +2484,10 @@
         </div>
             <div class="col-12 col-md-6">
                 <div class="tour__text">
-                <p>Черноморское побережье – это край с древней и богатой историей, а также роскошной и удивительно красивой природой. Поэтому, планируя отдых в Джубге, обязательно посетите организуемые нашим отелем интересные экскурсии по местным достопримечательностям.</p>
+                <p class="p-show">Черноморское побережье – это край с древней и богатой историей, а также роскошной и удивительно красивой природой. Поэтому, планируя отдых в Джубге, обязательно посетите организуемые нашим отелем интересные экскурсии по местным достопримечательностям.</p>
             </div></div>
             <div class="col-12 col-md-6">
-            <div class="tour__text">    <p>Вы можете заказать у нас маршрут в любом направлении на полдня, целый день и даже сутки. Не знаете, что выбрать? Воспользуйтесь популярными среди клиентов поездками в Абхазию, Абрау-Дюрсо с его знаменитыми виноградниками, города-курорты Сочи и Геленджик. <span><a
+            <div class="tour__text">    <p class="p-hide">Вы можете заказать у нас маршрут в любом направлении на полдня, целый день и даже сутки. Не знаете, что выбрать? Воспользуйтесь популярными среди клиентов поездками в Абхазию, Абрау-Дюрсо с его знаменитыми виноградниками, города-курорты Сочи и Геленджик. <span><a
                             href="#">Читать далее</a></span></p></div>
             </div>
 
@@ -2188,18 +2565,20 @@
         <div class="row">
             <div class="col-12 col-md-7">
                 <div class="road__map" >
-                    <p class="doroad" style="background: #0F83EE;
-    box-shadow: 0px 4px 0px #064784;
-    border-radius: 6px;
-    border: none;
-    font-family: Circe, sans-serif;
-    font-size: 20px;
-    line-height: 29px;
-    text-align: center;
-    color: #fff;
-    padding: 10px 44px;
-    width: 300px;
-cursor: pointer;">Построить маршрут</p>
+<!--                    <p class="doroad" style="background: #0F83EE;-->
+<!--    box-shadow: 0px 4px 0px #064784;-->
+<!--    border-radius: 6px;-->
+<!--    border: none;-->
+<!--    font-family: Circe, sans-serif;-->
+<!--    font-size: 20px;-->
+<!--    line-height: 29px;-->
+<!--    text-align: center;-->
+<!--    color: #fff;-->
+<!--    padding: 10px 44px;-->
+<!--    width: 300px;-->
+<!--cursor: pointer;">Построить маршрут</p>-->
+
+                    <a href="https://yandex.ru/maps/213/moscow/?from=tabbar&ll=37.615038%2C55.751529&mode=search&sll=37.615038%2C55.751490&text=yandex&z=12"><img src="img/road/ymaps.jpg" alt=""></a>
 
                 </div>
             </div>
@@ -2279,24 +2658,15 @@ cursor: pointer;">Построить маршрут</p>
                 <div class="insta__header">Наш Instagramm</div>
             </div>
         </div>
-        <!--        <div class="row no-gutters">-->
-        <!--            <div class="insta-wrapper">-->
-        <!--                <div class="insta-slider">-->
-        <!--                    <div class="insta-item"><img src="img/insta/i1.png" alt=""></div>-->
-        <!--                    <div class="insta-item"><img src="img/insta/i2.png" alt=""></div>-->
-        <!--                    <div class="insta-item"><img src="img/insta/i3.png" alt=""></div>-->
-        <!--                    <div class="insta-item"><img src="img/insta/i4.png" alt=""></div>-->
-        <!--                    <div class="insta-item"><img src="img/insta/i1.png" alt=""></div>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
     </div>
     <div class="row no-gutters">
         <div class="insta-wrapper">
             <div class="insta-slider">
             </div>
         </div>
+
     </div>
+
 </section>
     <footer class="footer">
     <div class="container">
@@ -2309,7 +2679,8 @@ cursor: pointer;">Построить маршрут</p>
                     <span><a href=""><img src="img/footer/Telegram.png" alt=""></a></span>
                 </div>
                 <div class="footer__copyright"><p>Copyright 2019 © Отель "Саргис". Все права защищены.</p></div>
-                <div class="footer__descr"><p>Все материалы, размещенные на сайте, в том числе фотографии, являются объектами авторского права и защищены законом. Использование, воспроизведение и распространение в любом объеме информации, размещенной на сайте, возможно только с письменного согласия.</p></div>
+                <div class="footer__descr"><p>Все материалы, размещенные на сайте, в том числе фотографии, являются объектами авторского права и защищены законом.
+                        <br> Использование, воспроизведение и распространение в любом объеме информации, размещенной на сайте, возможно только с письменного согласия.</p></div>
                 <div class="footer__author"><p>made with <span>♥</span> by <a href="">Roman A. Proskurnin</a> </p></div>
             </div>
         </div>
@@ -2340,12 +2711,12 @@ cursor: pointer;">Построить маршрут</p>
 
 <!--Библиотеки-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" defer ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"  ></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha256-etrwgFLGpqD4oNAFW08ZH9Bzif5ByXK2lXNHKy7LQGo=" crossorigin="anonymous"  rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js" defer ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"  ></script>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/css/datepicker.min.css" integrity="sha256-q0wZgzQ6Ru67x+pIe9IAztrnlHNHyZui3BMwqUYDnpI=" crossorigin="anonymous"  />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/js/datepicker.min.js " integrity="sha256-0prQxFtdWQNa3vW5JDMbvbBp6ehKzf9UIWqFGZIWPPE=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/css/datepicker.min.css" integrity="sha256-q0wZgzQ6Ru67x+pIe9IAztrnlHNHyZui3BMwqUYDnpI=" crossorigin="anonymous" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/js/datepicker.min.js" integrity="sha256-0prQxFtdWQNa3vW5JDMbvbBp6ehKzf9UIWqFGZIWPPE=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/bootstrap/main.js" integrity="sha256-YLvGa/6UrzsYa6pgPIwxuiXtsS854c/pImjL3kfK+sY=" crossorigin="anonymous"  ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/core/locales/ru.js" integrity="sha256-eyaxfjgqJuQ/JYg5TTCDjag6unRgPguvL20yhGVUB6g=" crossorigin="anonymous"  ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.js" integrity="sha256-K0KkaRh1fs/UYfKcnzBK9G/X7HgzuaeVI1hJPS8Sxs4=" crossorigin="anonymous"></script>
